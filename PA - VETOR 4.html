@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetor 4</title>
+</head>
+<body>
+    <script>
+    var vetor = [];
+
+    for (var i = 0; i < 5; i++) {
+    var valor = prompt("Digite o valor " + (i + 1) + ":");
+    vetor.push(valor);
+}
+
+    vetor.reverse();
+
+    document.write("Vetor em ordem inversa:<br>");
+    for (var i = 0; i < vetor.length; i++) {
+    document.write(vetor[i] + "<br>");
+}
+
+        
+    </script>
+    
+</body>
+</html>
